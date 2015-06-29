@@ -1,0 +1,6 @@
+
+应用代码语言是Small Basic ,由于解析器不支持面向对象和面向过程,所以就不能在一个文本中用代码来实现所有的功能,于是有了这样的解决方法:
+
+application_name.sbi              --  应用程序初始化代码
+application_name_index_event.sbw  --  应用程序控件代码
+application_name.bmp              --  应用程序图标[100*100]
